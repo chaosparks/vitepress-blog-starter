@@ -1,0 +1,5 @@
+# VitePress build and cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+node_modules/
