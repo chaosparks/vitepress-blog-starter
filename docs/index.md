@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Vitepress-Setup
+      link: /tutorial/vitepress-site.md	  
 
 features:
   - title: Feature A
