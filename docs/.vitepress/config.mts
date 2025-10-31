@@ -5,6 +5,28 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Search',
+            buttonAriaLabel: 'Search Document'
+          },
+          modal: {
+            noResultsText: 'Find Nothing',
+            resetButtonTitle: 'Clear Results',
+            footer: {
+              selectText: 'Select',
+              navigateText: 'Switch',
+              closeText: 'Close'
+            }
+          }
+        }
+      }
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
