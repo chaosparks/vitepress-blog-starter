@@ -30,10 +30,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Categories', link: '/categories' },
+      { text: 'Tags', link: '/tags' }
     ],
 
     sidebar: [
+      {
+        text: 'Navigation',
+        items: [
+          { text: 'Home', link: '/' },
+          { text: 'Categories', link: '/categories' },
+          { text: 'Tags', link: '/tags' }
+        ]
+      },      
       {
         text: 'Examples',
         items: [
